@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="Page">
+      <div id="Headline">
+        Calculate Mean of 5 Numbers
+      </div>
+      <div>
+        <div id="Name">Enter the five numbers to calculate mean of</div>
+        <div id="inputNo">
+          <input id="1" value="" />
+          <input id="2" value="" />
+          <input id="3" value="" />
+          <input id="4" value="" />
+          <input id="5" value="" />
+        </div>
+      </div>
+
+      <div id="buttonDiv">
+        <button id="button" onclick="runClick()">
+          Calculate
+        </button>
+      </div>
+
+      <section id="WordAndAns">
+        <div id="FinalMean">Mean</div>
+      </section>
+    </div>
+  </body>
+
+  <script>
+    function mean(arr) {
+      let sum = 0;
+
+      for (let i = 0; i < 5; i++) {
+        if (typeof arr[i] !== "number") {
+          return NaN;
+        }
+        sum = sum + arr[i];
+      }
+
+      let mean = sum / 5;
+
+      return mean;
+    }
+
+    function runClick() {
+      let arr = [];
+      arr[0] = parseInt(document.getElementById("1").value);
+      arr[1] = parseInt(document.getElementById("2").value);
+      arr[2] = parseInt(document.getElementById("3").value);
+      arr[3] = parseInt(document.getElementById("4").value);
+      arr[4] = parseInt(document.getElementById("5").value);
+      let ans = mean(arr);
+      document.getElementById("FinalMean").innerHTML = ans;
+    }
+  </script>
+</html>
