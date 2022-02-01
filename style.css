@@ -1,0 +1,95 @@
+body {
+  background-color: #f3c5c5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#Page {
+  margin: auto;
+  margin-top: 8%;
+  padding: 10px;
+  padding-top: 5%;
+  width: 60%;
+  border: 3px solid #694e4e;
+  background-color: #c1a3a3;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.12);
+}
+
+.BoxInput {
+  text-align: center;
+  width: 10%;
+  box-sizing: border-box;
+}
+
+#Name {
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 1%;
+}
+
+input {
+  width: 14%;
+  height: 8%;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#inputNo {
+  text-align: center;
+  padding: 2%;
+}
+
+#button {
+  margin: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 20%;
+  height: 5%;
+  font-size: 1.2em;
+  background-color: #886f6f;
+  border: 3px solid #694e4e;
+  border-radius: 12px;
+  box-shadow: 4px 2px 2px rgba(10, 10, 10, 0.12);
+}
+
+#buttonDiv {
+  margin-top: 0.8%;
+  margin-left: 3.2%;
+  margin-bottom: 0.8%;
+}
+
+#Headline {
+  text-align: center;
+  font-size: 2.2em;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+#FinalMean {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  width: 100px;
+  height: 20px;
+  font-size: 1.5em;
+  border: 1px solid black;
+  border-radius: 1px;
+  text-align: center;
+  align-content: center;
+  background-color: whitesmoke;
+}
+#WordAndAns {
+  padding: 2%;
+  padding-left: 5%;
+  background-color: #c1a3a3;
+  height: 10%;
+  font-size: 1em;
+}
